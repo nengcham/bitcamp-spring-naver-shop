@@ -7,4 +7,8 @@ public interface MemberService {
     String registerMailSend();
     String mileageList();
     String mileageDetail();
+    String calc();
+    String bmi();
+    String grade();
+
 }

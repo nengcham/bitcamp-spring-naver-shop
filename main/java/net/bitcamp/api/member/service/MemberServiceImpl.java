@@ -1,5 +1,8 @@
 package net.bitcamp.api.member.service;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class MemberServiceImpl implements MemberService{
     @Override
     public String memberList() {
@@ -28,6 +31,21 @@ public class MemberServiceImpl implements MemberService{
 
     @Override
     public String mileageDetail() {
+        return null;
+    }
+
+    @Override
+    public String calc() {
+        return null;
+    }
+
+    @Override
+    public String bmi() {
+        return null;
+    }
+
+    @Override
+    public String grade() {
         return null;
     }
 }
